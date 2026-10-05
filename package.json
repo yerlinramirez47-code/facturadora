@@ -1,0 +1,14 @@
+{
+  "name": "facturadora",
+  "version": "1.0.0",
+  "description": "Facturadora sencilla para tienda: clientes, facturas a crédito, abonos y comprobantes en RD$.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "bun src/server.js",
+    "crear-admin": "bun scripts/crear-admin.js"
+  },
+  "engines": {
+    "bun": ">=1.2"
+  }
+}
